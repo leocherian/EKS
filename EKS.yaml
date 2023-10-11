@@ -50,7 +50,7 @@ Parameters:
     Type: "String"
     Description: "CIDR range from which you would connect to the EKS cluster for administration. Must be in CIDR form. Eg. 10.0.0.0/16"
 
- Resources:
+Resources:
   EKSIAMRole:
     Type: 'AWS::IAM::Role'
     Properties:
